@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Tostões - Guardar Dinheiro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="goalsContainer">
+    <header>
+      <h1>🪙 MEUS TOSTÕES 🪙</h1>
+      <p>Suas metas de uma forma mais simples</p>
+    </header>
+
+    <section class="goal-form">
+      <h2>Defina sua Meta de Poupança</h2>
+      <input type="text" id="goalName" placeholder="Nome da Meta" required>
+      <input type="number" id="goalAmount" placeholder="Valor da Meta (R$)" required>
+      <button onclick="addGoal()">Adicionar Meta</button>
+    </section>
+
+    <section class="goals-list">
+      <h2>Minhas Metas de Poupança</h2>
+      <ul id="goals">
+        <!-- Metas serão listadas aqui -->
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
